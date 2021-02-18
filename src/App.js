@@ -118,7 +118,7 @@ function App() {
     const index = Math.floor((start + end) / 2);
     const item = array[index];
 
-    console.log(start, end);
+    // console.log(start, end);
     if (item == value) {
       return `Found ${value} in ${counter} steps`;
     } else if (item < value) {
